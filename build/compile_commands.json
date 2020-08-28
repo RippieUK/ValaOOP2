@@ -1,0 +1,22 @@
+[
+  {
+    "directory": "/home/rippie/Projects/vala/ValaOOP2/build",
+    "command": "valac -C --debug --debug --pkg gobject-2.0 --pkg glib-2.0 --color=always --directory com.github.rippieuk.valaoop2@exe --basedir ../ ../main.vala ../src/Person.vala ../src/Dog.vala",
+    "file": "../main.vala"
+  },
+  {
+    "directory": "/home/rippie/Projects/vala/ValaOOP2/build",
+    "command": "cc -Icom.github.rippieuk.valaoop2@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g  -MD -MQ 'com.github.rippieuk.valaoop2@exe/meson-generated_main.c.o' -MF 'com.github.rippieuk.valaoop2@exe/meson-generated_main.c.o.d' -o 'com.github.rippieuk.valaoop2@exe/meson-generated_main.c.o' -c 'com.github.rippieuk.valaoop2@exe/main.c'",
+    "file": "com.github.rippieuk.valaoop2@exe/main.c"
+  },
+  {
+    "directory": "/home/rippie/Projects/vala/ValaOOP2/build",
+    "command": "cc -Icom.github.rippieuk.valaoop2@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g  -MD -MQ 'com.github.rippieuk.valaoop2@exe/meson-generated_src_Person.c.o' -MF 'com.github.rippieuk.valaoop2@exe/meson-generated_src_Person.c.o.d' -o 'com.github.rippieuk.valaoop2@exe/meson-generated_src_Person.c.o' -c 'com.github.rippieuk.valaoop2@exe/src/Person.c'",
+    "file": "com.github.rippieuk.valaoop2@exe/src/Person.c"
+  },
+  {
+    "directory": "/home/rippie/Projects/vala/ValaOOP2/build",
+    "command": "cc -Icom.github.rippieuk.valaoop2@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g  -MD -MQ 'com.github.rippieuk.valaoop2@exe/meson-generated_src_Dog.c.o' -MF 'com.github.rippieuk.valaoop2@exe/meson-generated_src_Dog.c.o.d' -o 'com.github.rippieuk.valaoop2@exe/meson-generated_src_Dog.c.o' -c 'com.github.rippieuk.valaoop2@exe/src/Dog.c'",
+    "file": "com.github.rippieuk.valaoop2@exe/src/Dog.c"
+  }
+]
